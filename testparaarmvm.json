@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccounts": {
+            "value": "venkatstor" // TODO: Fill in parameter value
+        },
+        "publicIPAddresses": {
+            "value": "venkat-eastus-pip" // TODO: Fill in parameter value
+        },
+        "networkSecurityGroups": {
+            "value": "venkat-eastus-nsg" // TODO: Fill in parameter value
+        },
+        "virtualNetworks": {
+            "value": "venkat-eastus-vnet1" // TODO: Fill in parameter value
+        },
+        "Subnet": {
+            "value": "venkat-eastus-subnet1" // TODO: Fill in parameter value
+        },
+        "NetworkInterface": {
+            "value": "venkat-eastus-nic" // TODO: Fill in parameter value
+        },
+        "virtualMachines": {
+            "value": "venkat-eastus-vm1" // TODO: Fill in parameter value
+        }
+    }
+}
